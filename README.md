@@ -50,11 +50,12 @@ ingestion, JPA persistence, containerised with a multi-stage Temurin build.
 ### [Blog-Automation](https://github.com/Godzilla-lab/Blog-Automation)
 `Python` `TypeScript` `Anthropic Claude`
 
-Content pipeline built on a three-layer agent architecture: Markdown SOPs hold intent,
-an orchestration layer does routing and error recovery, and deterministic Python does
-the actual work. Built that way for a specific reason. At 90% accuracy per step, a
-five-step chain succeeds 59% of the time, so the fix is to push everything that can be
-deterministic out of the model and into code.
+Content engine that turns one prompt into blog posts, Instagram carousels, Reels with
+voiceover, and tweets, holding brand voice across all of them. Built on a three-layer
+architecture: Markdown SOPs hold intent, an orchestration layer routes and recovers from
+errors, and 18 deterministic Python scripts do the work. That split exists for a measured
+reason. At 90% accuracy per step a five-step chain succeeds 59% of the time, so anything
+that can be deterministic gets pushed out of the model and into code.
 
 ### [Seo-report](https://github.com/Godzilla-lab/Seo-report)
 `Python`
