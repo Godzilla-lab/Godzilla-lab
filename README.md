@@ -81,6 +81,25 @@ check in application code.
 Full-site audit tool: technical crawl, schema validation, sitemap and performance checks,
 then a PDF report generator that ranks fixes by impact against effort.
 
+### [CS50 AI](https://github.com/Godzilla-lab/cs50-ai) · Twelve AI Projects
+`Python` `TensorFlow` `scikit-learn` `NLTK` `Transformers`
+
+Harvard's CS50 AI completed end to end: search, logic, probability, optimization,
+learning, neural networks, and language.
+
+The instructive one is Traffic, a CNN over 43 classes of German road signs. First run
+scored 5.45%, barely above the 2.3% of random guessing, with a starting loss of 158 where
+a healthy value is 3.76. The cause was unnormalized input, not architecture. One rescaling
+layer took it to 96.19% and a second convolutional block to 98.7%. Six configurations
+measured, including a no-dropout run that posted the highest training accuracy and among
+the lowest test accuracy.
+
+Also a Minesweeper AI winning 64% of games by logical inference rather than guessing, a
+crossword generator that solves a 2,654-value constraint problem in 0.09 seconds via AC-3,
+and a Nim agent that learned optimal play from 10,000 self-played games with no strategy
+programmed in. Solution code is withheld per CS50's academic honesty policy; results,
+comparisons, and attention diagrams are documented.
+
 ---
 
 ## Stack
@@ -103,6 +122,7 @@ then a PDF report generator that ranks fixes by impact against effort.
 
 B.Sc. (Honours) Computer Science, Kwara State University
 Oracle Generative AI Professional Certification
+[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/0d96cd8d-dbff-499c-af78-13aac25e3031), HarvardX
 
 ---
 
