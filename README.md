@@ -116,13 +116,19 @@ comparisons, and attention diagrams are documented.
 
 ## Background
 
-**AI Automation Engineer**, Hexa AI Agency · Nov 2025 to Jun 2026
-**Junior AI Automation Engineer**, Automatemybiz.ai (Dubai) · Feb 2025 to Jun 2025
-**AI Automation Engineer Intern**, AI2market.com (US) · Sep 2024 to Nov 2024
+**Experience**
 
-B.Sc. (Honours) Computer Science, Kwara State University
-Oracle Generative AI Professional Certification
-[CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/0d96cd8d-dbff-499c-af78-13aac25e3031), HarvardX
+| Role | Company | Period |
+|---|---|---|
+| AI Automation Engineer | Hexa AI Agency | Nov 2025 to Jun 2026 |
+| Junior AI Automation Engineer | Automatemybiz.ai (Dubai) | Feb 2025 to Jun 2025 |
+| AI Automation Engineer Intern | AI2market.com (US) | Sep 2024 to Nov 2024 |
+
+**Education and certifications**
+
+- B.Sc. (Honours) Computer Science, Kwara State University
+- Oracle Generative AI Professional Certification
+- [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/0d96cd8d-dbff-499c-af78-13aac25e3031), HarvardX
 
 ---
 
