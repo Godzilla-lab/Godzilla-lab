@@ -35,6 +35,25 @@ Live on Render and Postgres with row-level tenancy:
 curl https://quorum-api-j15n.onrender.com/v1/healthz
 ```
 
+### [GAIA Agent](https://github.com/Godzilla-lab/hf-agents-course) · Hugging Face AI Agents Course
+`Python` `smolagents` `LiteLLM` `Grok` `Gemini` `Stockfish` `poke-env`
+
+Final project of the Hugging Face AI Agents Course: an agent scored against 20 GAIA Level 1
+questions by exact string match, where 30% earns the certificate. **20 of 20 correct, 100%**,
+verified by the course scorer and listed on the student leaderboard.
+
+The design decision that made the difference: the LLM only does judgement, and anything
+that can be computed is computed. Type-chart maths, spreadsheet sums, a Python script's
+output, and chess moves (two vision models read the board into FEN independently, then
+Stockfish picks the move) never go through the model. Web pages get an in-page search
+instead of a 40K-character dump, and Wikipedia is fetched as of the date the question names.
+A rule-based scrubber plus a one-call formatter handles exact-match formatting.
+
+The bonus unit is an LLM Pokemon battle agent on Pokemon Showdown: 3-2 against poke-env's
+strongest built-in bot, and a win against a human on the course's public server, at about
+$0.15 per battle. Every turn is logged with the action, the reason, and the thinking time,
+and the README plays back a real battle from that log.
+
 ### [madebyhexa](https://github.com/Godzilla-lab/madebyhexa) · AI Ad Studio
 `JavaScript` `Netlify Functions` `Supabase` `Stripe` `ffmpeg`
 
@@ -106,7 +125,7 @@ comparisons, and attention diagrams are documented.
 
 | | |
 |---|---|
-| **Automation & AI** | n8n, Make.com, Zapier, GoHighLevel, Claude API, OpenAI API, LangChain, RAG (pgvector), MCP servers, agentic workflows, LLM output evaluation |
+| **Automation & AI** | n8n, Make.com, Zapier, GoHighLevel, Claude API, OpenAI API, LangChain, smolagents, RAG (pgvector), MCP servers, agentic workflows, LLM output evaluation |
 | **Languages** | Python, TypeScript, JavaScript (Node.js), Java (Spring Boot), SQL |
 | **Interfaces** | REST API design, OpenAPI 3.1, webhooks, Standard Webhooks |
 | **Infrastructure** | AWS, Docker, Railway, Render, Netlify, PostgreSQL, Supabase, GitHub Actions, CI/CD |
@@ -129,6 +148,7 @@ comparisons, and attention diagrams are documented.
 - B.Sc. (Honours) Computer Science, Kwara State University
 - Oracle Generative AI Professional Certification
 - [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/certificates/0d96cd8d-dbff-499c-af78-13aac25e3031), HarvardX
+- [Hugging Face AI Agents Course, Certificate of Completion](https://huggingface.co/spaces/agents-course/Students_leaderboard), final project scored 100%
 
 ---
 
