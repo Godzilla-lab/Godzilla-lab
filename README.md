@@ -1,24 +1,34 @@
-<div align="center">
+```
+olamilekan@github
+─────────────────────────────────────────────────────
+Role ................. AI Automation Engineer
+Location ............. Nigeria
+Uptime ............... 1yr 10mo on GitHub
+IDE .................. VS Code, Claude Code
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&lines=Olamilekan+Busari;AI+Automation+Engineer;I+build+systems+that+run+unattended" alt="Typing SVG" />
+Languages.Code ....... Python, TypeScript, Java, JavaScript
+Languages.Human ...... English, Yoruba, Pidgin
 
-<br>
+Stack.AI ............. Claude API, LangChain, smolagents, n8n
+Stack.Infra .......... PostgreSQL, Docker, AWS, Supabase
+Stack.Web ............ Node.js, Spring Boot, Netlify
 
-[![Email](https://img.shields.io/badge/olamibusari607@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:olamibusari607@gmail.com)
-&nbsp;
-[![Website](https://img.shields.io/badge/hexaaiagency.com-000000?style=flat-square&logo=safari&logoColor=white)](https://hexaaiagency.com)
-&nbsp;
-[![npm](https://img.shields.io/npm/v/quorum-api.svg?style=flat-square&label=quorum-api)](https://www.npmjs.com/package/quorum-api)
+Contact
+├── Email ............ olamibusari607@gmail.com
+├── Website .......... hexaaiagency.com
+└── npm .............. quorum-api
 
-</div>
-
-<br>
-
-I write the deterministic scaffolding that makes probabilistic AI reliable enough to ship.
-
-**5,100+ production executions/month** at a 1.6% failure rate. Nine client engagements delivered end to end. Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API), a verifiable-citation API where fabricated claims are structurally impossible.
+GitHub Stats
+├── Repos ............ 20 (12 public)
+├── Commits .......... 467+
+├── Client Ships ..... 9 end-to-end
+├── Prod Rate ........ 5,100+ exec/mo @ 1.6% failure
+└── Best Score ....... GAIA 20/20 (100%)
+```
 
 ---
+
+I write the deterministic scaffolding that makes probabilistic AI reliable enough to ship. Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API), a verifiable-citation API where fabricated claims are structurally impossible.
 
 ### Selected work
 
@@ -33,31 +43,6 @@ I write the deterministic scaffolding that makes probabilistic AI reliable enoug
 
 ---
 
-### Tech
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-</div>
-
----
-
 ### Background
 
 **Experience:** Hexa AI Agency &middot; Automatemybiz.ai (Dubai) &middot; AI2market.com (US)
@@ -65,8 +50,6 @@ I write the deterministic scaffolding that makes probabilistic AI reliable enoug
 **Education:** B.Sc. Computer Science, Kwara State University
 
 **Certifications:** [CS50 AI (Harvard)](https://cs50.harvard.edu/certificates/0d96cd8d-dbff-499c-af78-13aac25e3031) &middot; [HuggingFace AI Agents (100%)](https://huggingface.co/spaces/agents-course/Students_leaderboard) &middot; Oracle Gen AI Professional
-
-<br>
 
 <div align="center">
 
