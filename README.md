@@ -58,22 +58,6 @@ I write the deterministic scaffolding that makes probabilistic AI reliable enoug
 
 ---
 
-### Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Godzilla-lab&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180" alt="stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Godzilla-lab&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="languages" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Godzilla-lab&theme=tokyonight&hide_border=true" alt="streak" />
-</div>
-
----
-
 ### Background
 
 **Experience:** Hexa AI Agency &middot; Automatemybiz.ai (Dubai) &middot; AI2market.com (US)
