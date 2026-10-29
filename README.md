@@ -29,7 +29,7 @@ I write the deterministic scaffolding that makes probabilistic AI reliable enoug
 | **42K lines** | [**madebyhexa**](https://github.com/Godzilla-lab/madebyhexa) | AI ad studio. Research picks the angle before anything is generated. Stripe billing, Shopify OAuth. | `JavaScript` `Supabase` `ffmpeg` |
 | **open data** | [**naija-grid**](https://github.com/Godzilla-lab/naija-grid) | Nigeria's electricity grid: NERC monthly caps and service bands for every feeder, all 11 DisCos. | `Python` `CC BY 4.0` |
 | **18 envs** | [**Multi-Creator Chatbot**](https://github.com/Godzilla-lab/multi-creator-chatbot) | Multi-tenant chatbot fleet from one Docker image. Per-tenant credentials, persona, analytics. | `Java 17` `Spring Boot` `Docker` |
-| **98.7%** | [**CS50 AI**](https://github.com/Godzilla-lab/cs50-ai) | 12 AI projects from Harvard. Road sign CNN, Minesweeper AI, constraint solver, Q-learning agent. | `Python` `TensorFlow` `NLTK` |
+| **4 languages** | [**TradeVoice**](https://github.com/Godzilla-lab/tradevoice) | Voice-first bookkeeping for market traders. Speak in English, Yoruba, Hausa or Igbo on WhatsApp or web. | `Python` `WhatsApp` `ASR` |
 
 ---
 
