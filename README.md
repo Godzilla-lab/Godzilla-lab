@@ -1,12 +1,12 @@
-<div align="center">
-  <img src="neofetch.svg" alt="neofetch" width="700"/>
-</div>
+<a href="https://github.com/Godzilla-lab">
+  <img src="neofetch.svg" alt="neofetch"/>
+</a>
 
 <br/>
 
 I write the deterministic scaffolding that makes probabilistic AI reliable enough to ship.
 
-Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API) &mdash; a verifiable-citation API where fabricated claims are structurally impossible.
+Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API), a verifiable-citation API where fabricated claims are structurally impossible.
 
 <br/>
 
