@@ -1,41 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 518 660" width="518" height="660">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 618" width="888" height="618">
   <defs>
     <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.02"/>
     </linearGradient>
   </defs>
 
   <style>
+    text, tspan { white-space: pre; }
     .line {
       font-family: "JetBrains Mono","Fira Code","Cascadia Code","SF Mono","Menlo",Consolas,monospace;
       font-size: 14px;
       fill: #c9d1d9;
       opacity: 0;
     }
-    .key { fill: #58a6ff; font-weight: bold; }
-    .val { fill: #c9d1d9; }
+    .ascii { fill: #3fb950; }
+    .key { fill: #ffa657; }
+    .val { fill: #a5d6ff; }
     .dots { fill: #484f58; }
     .link { fill: #39d353; }
-    .section { fill: #bc8cff; font-weight: bold; }
-    .prompt-user { fill: #3fb950; font-weight: bold; }
-    .prompt-host { fill: #3fb950; font-weight: bold; }
-    .prompt-at { fill: #c9d1d9; }
-    .prompt-colon { fill: #c9d1d9; }
-    .prompt-tilde { fill: #58a6ff; font-weight: bold; }
-    .prompt-dollar { fill: #c9d1d9; }
-    .prompt-cmd { fill: #c9d1d9; }
+    .section { fill: #c9d1d9; }
+    .header { fill: #3fb950; font-weight: bold; }
     .sep { fill: #484f58; }
+    .dim { fill: #484f58; }
   </style>
 
-  <!-- Outer shell -->
-  <rect width="518" height="660" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <rect width="518" height="660" rx="12" fill="url(#glow)"/>
+  <!-- Background -->
+  <rect width="888" height="618" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="888" height="618" rx="12" fill="url(#glow)"/>
 
   <!-- Title bar -->
-  <rect width="518" height="36" rx="12" fill="#161b22"/>
-  <rect x="0" y="24" width="518" height="12" fill="#161b22"/>
-  <line x1="0" y1="36" x2="518" y2="36" stroke="#30363d" stroke-width="0.5"/>
+  <rect width="888" height="36" rx="12" fill="#161b22"/>
+  <rect x="0" y="24" width="888" height="12" fill="#161b22"/>
+  <line x1="0" y1="36" x2="888" y2="36" stroke="#30363d" stroke-width="0.5"/>
 
   <!-- Traffic lights -->
   <circle cx="22" cy="18" r="6.5" fill="#f85149"/>
@@ -43,56 +40,55 @@
   <circle cx="66" cy="18" r="6.5" fill="#3fb950"/>
 
   <!-- Title -->
-  <text x="259" y="22" text-anchor="middle"
+  <text x="444" y="22" text-anchor="middle"
     font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#484f58"
-    font-weight="500">olamilekan@github: ~</text>
+    font-weight="500">olamilekan@github: ~ neofetch</text>
 
   <!-- Blinking cursor -->
-  <rect x="24" y="56" width="8" height="14" fill="#3fb950" rx="1">
+  <rect x="20" y="52" width="8" height="14" fill="#3fb950" rx="1">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 
-  <text class="line" x="24" y="72"><tspan class="prompt-green">olamilekan</tspan><tspan class="prompt-dim">@</tspan><tspan class="prompt-green">github</tspan><tspan class="prompt-dim">:</tspan><tspan class="prompt-blue">~</tspan><tspan class="prompt-dim">$ </tspan><tspan class="prompt-text">neofetch</tspan><set attributeName="opacity" to="1" begin="0.0s" fill="freeze"/></text>
-  <text class="line" x="24" y="92"> <set attributeName="opacity" to="1" begin="0.08s" fill="freeze"/></text>
-  <text class="line" x="24" y="112"><tspan class="prompt-user">olamilekan</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">github</tspan><set attributeName="opacity" to="1" begin="0.16s" fill="freeze"/></text>
-  <text class="line" x="24" y="132"><tspan class="sep">──────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/></text>
-  <text class="line" x="24" y="152"><tspan class="key">OS</tspan><tspan class="dots"> ................ </tspan><tspan class="val">Human 1.0 (Nigeria)</tspan><set attributeName="opacity" to="1" begin="0.32s" fill="freeze"/></text>
-  <text class="line" x="24" y="172"><tspan class="key">Role</tspan><tspan class="dots"> .............. </tspan><tspan class="val">AI Automation Engineer</tspan><set attributeName="opacity" to="1" begin="0.4s" fill="freeze"/></text>
-  <text class="line" x="24" y="192"><tspan class="key">Uptime</tspan><tspan class="dots"> ............ </tspan><tspan class="val">1yr 10mo on GitHub</tspan><set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/></text>
-  <text class="line" x="24" y="212"><tspan class="key">Editor</tspan><tspan class="dots"> ............ </tspan><tspan class="val">Claude Code, VS Code</tspan><set attributeName="opacity" to="1" begin="0.56s" fill="freeze"/></text>
-  <text class="line" x="24" y="232"> <set attributeName="opacity" to="1" begin="0.64s" fill="freeze"/></text>
-  <text class="line" x="24" y="252"><tspan class="key">Languages</tspan><tspan class="dots"> ......... </tspan><tspan class="val">Python, TypeScript, Java, JS</tspan><set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/></text>
-  <text class="line" x="24" y="272"><tspan class="key">Speaks</tspan><tspan class="dots"> ............ </tspan><tspan class="val">English, Yoruba, Pidgin</tspan><set attributeName="opacity" to="1" begin="0.8s" fill="freeze"/></text>
-  <text class="line" x="24" y="292"> <set attributeName="opacity" to="1" begin="0.88s" fill="freeze"/></text>
-  <text class="line" x="24" y="312"><tspan class="key">AI</tspan><tspan class="dots"> ................ </tspan><tspan class="val">Claude API, smolagents, n8n</tspan><set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/></text>
-  <text class="line" x="24" y="332"><tspan class="key">Infra</tspan><tspan class="dots"> ............. </tspan><tspan class="val">PostgreSQL, Docker, AWS</tspan><set attributeName="opacity" to="1" begin="1.04s" fill="freeze"/></text>
-  <text class="line" x="24" y="352"><tspan class="key">Web</tspan><tspan class="dots"> ............... </tspan><tspan class="val">Node.js, Spring Boot</tspan><set attributeName="opacity" to="1" begin="1.12s" fill="freeze"/></text>
-  <text class="line" x="24" y="372"> <set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/></text>
-  <text class="line" x="24" y="392"><tspan class="section">Contact</tspan><set attributeName="opacity" to="1" begin="1.28s" fill="freeze"/></text>
-  <text class="line" x="24" y="412"><tspan class="key">Email</tspan><tspan class="dots"> ............. </tspan><tspan class="link">olamibusari607@gmail.com</tspan><set attributeName="opacity" to="1" begin="1.36s" fill="freeze"/></text>
-  <text class="line" x="24" y="432"><tspan class="key">Website</tspan><tspan class="dots"> ........... </tspan><tspan class="link">hexaaiagency.com</tspan><set attributeName="opacity" to="1" begin="1.44s" fill="freeze"/></text>
-  <text class="line" x="24" y="452"><tspan class="key">npm</tspan><tspan class="dots"> ............... </tspan><tspan class="val">quorum-api</tspan><set attributeName="opacity" to="1" begin="1.52s" fill="freeze"/></text>
-  <text class="line" x="24" y="472"> <set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/></text>
-  <text class="line" x="24" y="492"><tspan class="section">GitHub</tspan><set attributeName="opacity" to="1" begin="1.68s" fill="freeze"/></text>
-  <text class="line" x="24" y="512"><tspan class="key">Repos</tspan><tspan class="dots"> ............. </tspan><tspan class="val">20 (12 public)</tspan><set attributeName="opacity" to="1" begin="1.76s" fill="freeze"/></text>
-  <text class="line" x="24" y="532"><tspan class="key">Commits</tspan><tspan class="dots"> ........... </tspan><tspan class="val">467+</tspan><set attributeName="opacity" to="1" begin="1.84s" fill="freeze"/></text>
-  <text class="line" x="24" y="552"><tspan class="key">Client Ships</tspan><tspan class="dots"> ...... </tspan><tspan class="val">9 end-to-end</tspan><set attributeName="opacity" to="1" begin="1.92s" fill="freeze"/></text>
-  <text class="line" x="24" y="572"><tspan class="key">Best Score</tspan><tspan class="dots"> ........ </tspan><tspan class="val">GAIA benchmark 20/20</tspan><set attributeName="opacity" to="1" begin="2.0s" fill="freeze"/></text>
-  <text class="line" x="24" y="592"> <set attributeName="opacity" to="1" begin="2.08s" fill="freeze"/></text>
-  <rect x="24" y="599" width="18" height="18" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="46" y="599" width="18" height="18" rx="3" fill="#f85149" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="68" y="599" width="18" height="18" rx="3" fill="#3fb950" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="90" y="599" width="18" height="18" rx="3" fill="#d29922" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="112" y="599" width="18" height="18" rx="3" fill="#58a6ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="134" y="599" width="18" height="18" rx="3" fill="#bc8cff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="156" y="599" width="18" height="18" rx="3" fill="#39d353" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="178" y="599" width="18" height="18" rx="3" fill="#c9d1d9" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="24" y="617" width="18" height="18" rx="3" fill="#484f58" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="46" y="617" width="18" height="18" rx="3" fill="#ff7b72" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="68" y="617" width="18" height="18" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="90" y="617" width="18" height="18" rx="3" fill="#e3b341" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="112" y="617" width="18" height="18" rx="3" fill="#79c0ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="134" y="617" width="18" height="18" rx="3" fill="#d2a8ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="156" y="617" width="18" height="18" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
-  <rect x="178" y="617" width="18" height="18" rx="3" fill="#f0f6fc" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <text class="line" x="20" y="68"><tspan class="ascii">.!1vrjxjxhkwpdb9EE99bwkxcf1~,    .        </tspan><tspan>        </tspan><tspan x="406.40000000000003" class="header">olamilekan</tspan><tspan fill="#c9d1d9">@</tspan><tspan class="header">github</tspan><tspan class="sep"> ─────────────────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="0.00s" fill="freeze"/></text>
+  <text class="line" x="20" y="88"><tspan class="ascii">|johkojowqpdmdu(/raoohwwqkhor\?;  .       </tspan><tspan>        </tspan><tspan x="406.40000000000003" class="sep">──────────────────────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="0.06s" fill="freeze"/></text>
+  <text class="line" x="20" y="108"><tspan class="ascii">wwqqojhqpdd9fI+i&gt;})\~1+++}\roajn);        </tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">OS</tspan><tspan class="dots">: .................... </tspan><tspan class="val">Human 1.0 (Nigeria)</tspan><set attributeName="opacity" to="1" begin="0.12s" fill="freeze"/></text>
+  <text class="line" x="20" y="128"><tspan class="ascii">pqkoowpqppdmwaw9KKHK9mkjf{_i}wxjjv+.      </tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Role</tspan><tspan class="dots">: .................. </tspan><tspan class="val">AI Automation Engineer</tspan><set attributeName="opacity" to="1" begin="0.18s" fill="freeze"/></text>
+  <text class="line" x="20" y="148"><tspan class="ascii">koohkqbZEHD0OB$OOO$B8&amp;BO00Hbokhajur[&#x27;.. ..</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Uptime</tspan><tspan class="dots">: ................ </tspan><tspan class="val">2yrs on GitHub</tspan><set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/></text>
+  <text class="line" x="20" y="168"><tspan class="ascii">xowq9GDDGHKXE9EEEEEEXKHXKHD0DK9dannn-.&#x27;.&#x27;&#x27;</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Shell</tspan><tspan class="dots">: ................. </tspan><tspan class="val">Claude Code, VS Code</tspan><set attributeName="opacity" to="1" begin="0.30s" fill="freeze"/></text>
+  <text class="line" x="20" y="188"><tspan class="ascii">kmKHEmbbbbbmZZ99ZZZZmmbqkajxokbXKZjvf,&#x27;`&#x27;&#x27;</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">.</tspan><set attributeName="opacity" to="1" begin="0.36s" fill="freeze"/></text>
+  <text class="line" x="20" y="208"><tspan class="ascii">bpbpwpZZmmmmbbbbdbmZ999mpkoaajrzzwDw/;&#x27;```</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.</tspan><tspan class="key">Code</tspan><tspan class="dots">: ........ </tspan><tspan class="val">Python, TypeScript, Java</tspan><set attributeName="opacity" to="1" begin="0.42s" fill="freeze"/></text>
+  <text class="line" x="20" y="228"><tspan class="ascii">zodm99E9mdpqhoohkpm9EKE9mpqwkxnv\}nMj^````</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.</tspan><tspan class="key">Human</tspan><tspan class="dots">: ....... </tspan><tspan class="val">English, Yoruba, Pidgin</tspan><set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/></text>
+  <text class="line" x="20" y="248"><tspan class="ascii">fowqkkkkhkoxjxxaokpbbmmpqwhxurz/\/zOp.````</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">.</tspan><set attributeName="opacity" to="1" begin="0.54s" fill="freeze"/></text>
+  <text class="line" x="20" y="268"><tspan class="ascii">cq9XKD0GZhxcfzvzcrakEQQQ0GGKbov\\vr0k&#x27;````</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Stack</tspan><tspan class="key">.</tspan><tspan class="key">AI</tspan><tspan class="dots">: .............. </tspan><tspan class="val">Claude API, smolagents, n8n</tspan><set attributeName="opacity" to="1" begin="0.60s" fill="freeze"/></text>
+  <text class="line" x="20" y="288"><tspan class="ascii">kXDGEH08BHqnffffzcjpGQ0K9XKpxjz\/zjBv.````</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Stack</tspan><tspan class="key">.</tspan><tspan class="key">Infra</tspan><tspan class="dots">: ........... </tspan><tspan class="val">PostgreSQL, Docker, AWS</tspan><set attributeName="opacity" to="1" begin="0.66s" fill="freeze"/></text>
+  <text class="line" x="20" y="308"><tspan class="ascii">)wG0$OB8M%WDqjuxaw0MM##W&amp;&amp;M9z?~}\vu)`&#x27;````</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Stack</tspan><tspan class="key">.</tspan><tspan class="key">Web</tspan><tspan class="dots">: ............. </tspan><tspan class="val">Node.js, Spring Boot, Supabase</tspan><set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/></text>
+  <text class="line" x="20" y="328"><tspan class="ascii">nEp[E##b8W&amp;%Gpqbb9M#W0\jWWrzHu?[1cnv-&#x27;&#x27;```</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">.</tspan><set attributeName="opacity" to="1" begin="0.78s" fill="freeze"/></text>
+  <text class="line" x="20" y="348"><tspan class="ascii">oo9E9X9KG8W0XmpmEQM%&amp;DXdDWmnvujjfr/Ep ````</tspan><tspan>        </tspan><tspan x="406.40000000000003">- Contact</tspan><tspan class="sep"> ──────────────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="0.84s" fill="freeze"/></text>
+  <text class="line" x="20" y="368"><tspan class="ascii">odbdqhwbZZbdqkhwqpdEGGGHHD0Edphrzccoo.&#x27;&#x27;``</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Email</tspan><tspan class="dots">: ................. </tspan><tspan class="val">olamibusari607@gmail.com</tspan><set attributeName="opacity" to="1" begin="0.90s" fill="freeze"/></text>
+  <text class="line" x="20" y="388"><tspan class="ascii">hhoaxxaxowhurrjxxopwkpdpwwpZmhc\/fuHt &#x27;&#x27;&#x27;&#x27;</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Website</tspan><tspan class="dots">: ............... </tspan><tspan class="val">hexaaiagency.com</tspan><set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/></text>
+  <text class="line" x="20" y="408"><tspan class="ascii">xajuczzrvuxnctfaooxzzpookhooxc\{)\|\,.&#x27;&#x27;&#x27;&#x27;</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">npm</tspan><tspan class="dots">: ................... </tspan><tspan class="val">quorum-api</tspan><set attributeName="opacity" to="1" begin="1.02s" fill="freeze"/></text>
+  <text class="line" x="20" y="428"><tspan class="ascii">fujnczrxw$&amp;BDZ9Q&amp;&amp;8Gpmkxokat)[?]{)~. ..&#x27;&#x27;&#x27;</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">.</tspan><set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/></text>
+  <text class="line" x="20" y="448"><tspan class="ascii">)vuunruxoqm9EKXH0DEdqhkkhkj/1?-]{[. ......</tspan><tspan>        </tspan><tspan x="406.40000000000003">- GitHub Stats</tspan><tspan class="sep"> ──────────────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="1.14s" fill="freeze"/></text>
+  <text class="line" x="20" y="468"><tspan class="ascii">]|zznbpxokpm9XEKGG9dkh9Hwrurz\({)i . . ...</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Repos</tspan><tspan class="dots">: ................. </tspan><tspan class="val">20 (12 public)</tspan><set attributeName="opacity" to="1" begin="1.20s" fill="freeze"/></text>
+  <text class="line" x="20" y="488"><tspan class="ascii">][)tuZHD9qb99bd9K0HH0QW&amp;Dqokhuft}&#x27;.   ....</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Commits</tspan><tspan class="dots">: ............... </tspan><tspan class="val">467+</tspan><set attributeName="opacity" to="1" begin="1.26s" fill="freeze"/></text>
+  <text class="line" x="20" y="508"><tspan class="ascii">_{|\fcxkoxkqhwZdd9XEmbEXGDGK9ph/&quot; .     ..</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Ships</tspan><tspan class="dots">: ................. </tspan><tspan class="val">9 end-to-end client builds</tspan><set attributeName="opacity" to="1" begin="1.32s" fill="freeze"/></text>
+  <text class="line" x="20" y="528"><tspan class="ascii">~-\vfffvxkbXKDQQQDDGE9XDO&amp;&amp;8$QmI .     ...</tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">. </tspan><tspan class="key">Best</tspan><tspan class="dots">: .................. </tspan><tspan class="val">GAIA benchmark 20/20 (100%)</tspan><set attributeName="opacity" to="1" begin="1.38s" fill="freeze"/></text>
+  <text class="line" x="20" y="548"><tspan class="ascii">                                          </tspan><tspan>        </tspan><tspan x="406.40000000000003" class="dim">.</tspan><set attributeName="opacity" to="1" begin="1.44s" fill="freeze"/></text>
+  <text class="line" x="20" y="568"><tspan class="ascii">                                          </tspan><tspan>        </tspan><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></text>
+  <rect x="406.40000000000003" y="557" width="16" height="16" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="425.40000000000003" y="557" width="16" height="16" rx="3" fill="#f85149" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="444.40000000000003" y="557" width="16" height="16" rx="3" fill="#3fb950" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="463.40000000000003" y="557" width="16" height="16" rx="3" fill="#d29922" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="482.40000000000003" y="557" width="16" height="16" rx="3" fill="#58a6ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="501.40000000000003" y="557" width="16" height="16" rx="3" fill="#bc8cff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="520.4000000000001" y="557" width="16" height="16" rx="3" fill="#39d353" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="539.4000000000001" y="557" width="16" height="16" rx="3" fill="#c9d1d9" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="406.40000000000003" y="573" width="16" height="16" rx="3" fill="#484f58" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="425.40000000000003" y="573" width="16" height="16" rx="3" fill="#ff7b72" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="444.40000000000003" y="573" width="16" height="16" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="463.40000000000003" y="573" width="16" height="16" rx="3" fill="#e3b341" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="482.40000000000003" y="573" width="16" height="16" rx="3" fill="#79c0ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="501.40000000000003" y="573" width="16" height="16" rx="3" fill="#d2a8ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="520.4000000000001" y="573" width="16" height="16" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
+  <rect x="539.4000000000001" y="573" width="16" height="16" rx="3" fill="#f0f6fc" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="1.50s" fill="freeze"/></rect>
 </svg>
