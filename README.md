@@ -1,23 +1,27 @@
 <div align="center">
-  <img src="neofetch.svg" alt="neofetch" width="100%"/>
+  <img src="neofetch.svg" alt="neofetch" width="700"/>
 </div>
 
----
+<br/>
 
-I write the deterministic scaffolding that makes probabilistic AI reliable enough to ship. Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API), a verifiable-citation API where fabricated claims are structurally impossible.
+I write the deterministic scaffolding that makes probabilistic AI reliable enough to ship.
 
-### Selected work
+Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API) &mdash; a verifiable-citation API where fabricated claims are structurally impossible.
+
+<br/>
+
+### Projects
 
 | | Project | What it does | Stack |
 |:---:|---------|-------------|-------|
-| **100%** | [**GAIA Agent**](https://github.com/Godzilla-lab/hf-agents-course) | 20/20 on HuggingFace GAIA benchmark. The LLM only does judgment; everything computable is computed. | `Python` `smolagents` `LiteLLM` |
-| **1,233 tests** | [**Quorum API**](https://github.com/Godzilla-lab/Quorum-API) | Market evidence API with verifiable receipts. On npm, OpenAPI 3.1, MCP server, zero-dep SDK. | `TypeScript` `PostgreSQL` `Node 22` |
-| **42K lines** | [**madebyhexa**](https://github.com/Godzilla-lab/madebyhexa) | AI ad studio. Research picks the angle before anything is generated. Stripe billing, Shopify OAuth. | `JavaScript` `Supabase` `ffmpeg` |
-| **open data** | [**naija-grid**](https://github.com/Godzilla-lab/naija-grid) | Nigeria's electricity grid: NERC monthly caps and service bands for every feeder, all 11 DisCos. | `Python` `CC BY 4.0` |
-| **18 envs** | [**Multi-Creator Chatbot**](https://github.com/Godzilla-lab/multi-creator-chatbot) | Multi-tenant chatbot fleet from one Docker image. Per-tenant credentials, persona, analytics. | `Java 17` `Spring Boot` `Docker` |
-| **4 languages** | [**TradeVoice**](https://github.com/Godzilla-lab/tradevoice) | Voice-first bookkeeping for market traders. Speak in English, Yoruba, Hausa or Igbo on WhatsApp or web. | `Python` `WhatsApp` `ASR` |
+| **100%** | [**GAIA Agent**](https://github.com/Godzilla-lab/hf-agents-course) | 20/20 on HuggingFace GAIA benchmark. The LLM judges; everything computable is computed. | `Python` `smolagents` `LiteLLM` |
+| **1,233 tests** | [**Quorum API**](https://github.com/Godzilla-lab/Quorum-API) | Market evidence API with verifiable receipts. npm, OpenAPI 3.1, MCP server. | `TypeScript` `PostgreSQL` `Node 22` |
+| **42K lines** | [**madebyhexa**](https://github.com/Godzilla-lab/madebyhexa) | AI ad studio. Research picks the angle before anything is generated. | `JavaScript` `Supabase` `ffmpeg` |
+| **open data** | [**naija-grid**](https://github.com/Godzilla-lab/naija-grid) | Nigeria's electricity grid: NERC caps and service bands for every feeder, all 11 DisCos. | `Python` `CC BY 4.0` |
+| **18 envs** | [**Multi-Creator Chatbot**](https://github.com/Godzilla-lab/multi-creator-chatbot) | Multi-tenant chatbot fleet from one Docker image. Per-tenant creds, persona, analytics. | `Java 17` `Spring Boot` `Docker` |
+| **4 languages** | [**TradeVoice**](https://github.com/Godzilla-lab/tradevoice) | Voice-first bookkeeping for market traders. WhatsApp or web, in English/Yoruba/Hausa/Igbo. | `Python` `WhatsApp` `ASR` |
 
----
+<br/>
 
 ### Background
 

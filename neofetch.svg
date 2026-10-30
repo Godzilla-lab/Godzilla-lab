@@ -1,62 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 512" width="695" height="512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 518 660" width="518" height="660">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
   <style>
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1 }
-      50% { opacity: 0 }
-    }
     .line {
-      font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono", "Consolas", monospace;
-      font-size: 13px;
-      fill: #f8f8f2;
+      font-family: "JetBrains Mono","Fira Code","Cascadia Code","SF Mono","Menlo",Consolas,monospace;
+      font-size: 14px;
+      fill: #c9d1d9;
       opacity: 0;
     }
+    .key { fill: #58a6ff; font-weight: bold; }
+    .val { fill: #c9d1d9; }
+    .dots { fill: #484f58; }
+    .link { fill: #39d353; }
+    .section { fill: #bc8cff; font-weight: bold; }
+    .prompt-user { fill: #3fb950; font-weight: bold; }
+    .prompt-host { fill: #3fb950; font-weight: bold; }
+    .prompt-at { fill: #c9d1d9; }
+    .prompt-colon { fill: #c9d1d9; }
+    .prompt-tilde { fill: #58a6ff; font-weight: bold; }
+    .prompt-dollar { fill: #c9d1d9; }
+    .prompt-cmd { fill: #c9d1d9; }
+    .sep { fill: #484f58; }
   </style>
 
-  <!-- Background -->
-  <rect width="695" height="512" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <!-- Outer shell -->
+  <rect width="518" height="660" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="518" height="660" rx="12" fill="url(#glow)"/>
 
   <!-- Title bar -->
-  <rect width="695" height="28" rx="8" fill="#161b22"/>
-  <rect x="0" y="20" width="695" height="8" fill="#161b22"/>
-  <circle cx="18" cy="14" r="5" fill="#ff5f56"/>
-  <circle cx="36" cy="14" r="5" fill="#ffbd2e"/>
-  <circle cx="54" cy="14" r="5" fill="#27c93f"/>
-  <text x="347" y="17" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8b949e">olamilekan@github ~ neofetch</text>
+  <rect width="518" height="36" rx="12" fill="#161b22"/>
+  <rect x="0" y="24" width="518" height="12" fill="#161b22"/>
+  <line x1="0" y1="36" x2="518" y2="36" stroke="#30363d" stroke-width="0.5"/>
 
-  <!-- Cursor -->
-  <rect x="16" y="48" width="8" height="13" fill="#50fa7b">
+  <!-- Traffic lights -->
+  <circle cx="22" cy="18" r="6.5" fill="#f85149"/>
+  <circle cx="44" cy="18" r="6.5" fill="#d29922"/>
+  <circle cx="66" cy="18" r="6.5" fill="#3fb950"/>
+
+  <!-- Title -->
+  <text x="259" y="22" text-anchor="middle"
+    font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#484f58"
+    font-weight="500">olamilekan@github: ~</text>
+
+  <!-- Blinking cursor -->
+  <rect x="24" y="56" width="8" height="14" fill="#3fb950" rx="1">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    <animate attributeName="y" values="48;66;84;102;120;138;156;174;192;210;228;246;264;282;300;318;336;354;372;390;408;426;444;462;480;498" dur="3.75s" fill="freeze"/>
-    <animate attributeName="x" values="445.0;640.0;640.0;523.0;608.8;624.4;281.2;624.4;647.8;281.2;679.0;647.8;624.4;281.2;367.0;655.6;593.1999999999999;546.4;16.0;406.0;577.6;499.59999999999997;562.0;632.1999999999999;601.0;16" dur="3.75s" fill="freeze"/>
   </rect>
 
-  <text class="line" x="16" y="62">@:....-+++***+=++++++-.  .......#@    <tspan fill="#70A5FD" font-weight="bold">olamilekan</tspan><tspan fill="#f8f8f2">@</tspan><tspan fill="#70A5FD" font-weight="bold">github</tspan><set attributeName="opacity" to="1" begin="0.0s" fill="freeze"/></text>
-  <text class="line" x="16" y="80" fill="#8b949e">@--::=**+***+=++++=-=++-....... #@    ──────────────────────────────────────────<set attributeName="opacity" to="1" begin="0.12s" fill="freeze"/></text>
-  <text class="line" x="16" y="98">@-:::+***####%%%%%##***+-.......#@    Role .............. AI Automation Engineer<set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/></text>
-  <text class="line" x="16" y="116">@-::-+*####*************+:......#@    Location .......... Nigeria<set attributeName="opacity" to="1" begin="0.36s" fill="freeze"/></text>
-  <text class="line" x="16" y="134">@-:.-*+*********##**++=+#:....:.#@    Uptime ............ 1yr 10mo on GitHub<set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/></text>
-  <text class="line" x="16" y="152">@::.++=****+++++*##**+==#-....:.#@    IDE ............... VS Code, Claude Code<set attributeName="opacity" to="1" begin="0.6s" fill="freeze"/></text>
-  <text class="line" x="16" y="170">@::.#=+##%%*+=++#%##*==+*:....:.#@<set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/></text>
-  <text class="line" x="16" y="188">@::.+=+*#%%@#**%@##%+=-+=:....:.#@    Languages.Code .... Python, TS, Java, JS<set attributeName="opacity" to="1" begin="0.84s" fill="freeze"/></text>
-  <text class="line" x="16" y="206">@:.:==****##***#%###**+=*-....:.#@    Languages.Human ... English, Yoruba, Pidgin<set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/></text>
-  <text class="line" x="16" y="224">@=..--*++++++++++****+==+:......#@<set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/></text>
-  <text class="line" x="16" y="242">@@*..-++++*##*##**+*=--=:.......#@    Stack.AI .......... Claude API, smolagents, n8n<set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/></text>
-  <text class="line" x="16" y="260">@%#..:=++***####***+===:........#@    Stack.Infra ....... PostgreSQL, Docker, AWS<set attributeName="opacity" to="1" begin="1.3199999999999998s" fill="freeze"/></text>
-  <text class="line" x="16" y="278">@%-:::-=+*****#####***=.........#@    Stack.Web ......... Node.js, Spring Boot<set attributeName="opacity" to="1" begin="1.44s" fill="freeze"/></text>
-  <text class="line" x="16" y="296">@%=::--=+=+**#####%%%#-.........#@<set attributeName="opacity" to="1" begin="1.56s" fill="freeze"/></text>
-  <text class="line" x="16" y="314">@@@@#+=-+#*###%%@@@@@%#+=::.... #@    Contact<set attributeName="opacity" to="1" begin="1.68s" fill="freeze"/></text>
-  <text class="line" x="16" y="332">@%@@@%**##%@@@@@@@@@@####***+=-.#@    <tspan fill="#70A5FD">Email </tspan><tspan fill="#8b949e">.............</tspan><tspan fill="#f8f8f2"> olamibusari607@gmail.com</tspan><set attributeName="opacity" to="1" begin="1.7999999999999998s" fill="freeze"/></text>
-  <text class="line" x="16" y="350">@@@@%*#*%#%%#@@@@@%%#######%@@%*%@    <tspan fill="#70A5FD">Website </tspan><tspan fill="#8b949e">...........</tspan><tspan fill="#f8f8f2"> hexaaiagency.com</tspan><set attributeName="opacity" to="1" begin="1.92s" fill="freeze"/></text>
-  <text class="line" x="16" y="368">                                      npm ............... quorum-api<set attributeName="opacity" to="1" begin="2.04s" fill="freeze"/></text>
-  <text class="line" x="16" y="386"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></text>
-  <text class="line" x="16" y="404">                                      GitHub Stats<set attributeName="opacity" to="1" begin="2.28s" fill="freeze"/></text>
-  <text class="line" x="16" y="422">                                      Repos ............. 20 (12 public)<set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/></text>
-  <text class="line" x="16" y="440">                                      Commits ........... 467+<set attributeName="opacity" to="1" begin="2.52s" fill="freeze"/></text>
-  <text class="line" x="16" y="458">                                      Client Ships ...... 9 end-to-end<set attributeName="opacity" to="1" begin="2.6399999999999997s" fill="freeze"/></text>
-  <text class="line" x="16" y="476">                                      Prod Rate ......... 5,100+ exec/mo @ 1.6%<set attributeName="opacity" to="1" begin="2.76s" fill="freeze"/></text>
-  <text class="line" x="16" y="494">                                      Best Score ........ GAIA 20/20 (100%)<set attributeName="opacity" to="1" begin="2.88s" fill="freeze"/></text>
+  <text class="line" x="24" y="72"><tspan class="prompt-green">olamilekan</tspan><tspan class="prompt-dim">@</tspan><tspan class="prompt-green">github</tspan><tspan class="prompt-dim">:</tspan><tspan class="prompt-blue">~</tspan><tspan class="prompt-dim">$ </tspan><tspan class="prompt-text">neofetch</tspan><set attributeName="opacity" to="1" begin="0.0s" fill="freeze"/></text>
+  <text class="line" x="24" y="92"> <set attributeName="opacity" to="1" begin="0.08s" fill="freeze"/></text>
+  <text class="line" x="24" y="112"><tspan class="prompt-user">olamilekan</tspan><tspan class="prompt-at">@</tspan><tspan class="prompt-user">github</tspan><set attributeName="opacity" to="1" begin="0.16s" fill="freeze"/></text>
+  <text class="line" x="24" y="132"><tspan class="sep">──────────────────────────────────</tspan><set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/></text>
+  <text class="line" x="24" y="152"><tspan class="key">OS</tspan><tspan class="dots"> ................ </tspan><tspan class="val">Human 1.0 (Nigeria)</tspan><set attributeName="opacity" to="1" begin="0.32s" fill="freeze"/></text>
+  <text class="line" x="24" y="172"><tspan class="key">Role</tspan><tspan class="dots"> .............. </tspan><tspan class="val">AI Automation Engineer</tspan><set attributeName="opacity" to="1" begin="0.4s" fill="freeze"/></text>
+  <text class="line" x="24" y="192"><tspan class="key">Uptime</tspan><tspan class="dots"> ............ </tspan><tspan class="val">1yr 10mo on GitHub</tspan><set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/></text>
+  <text class="line" x="24" y="212"><tspan class="key">Editor</tspan><tspan class="dots"> ............ </tspan><tspan class="val">Claude Code, VS Code</tspan><set attributeName="opacity" to="1" begin="0.56s" fill="freeze"/></text>
+  <text class="line" x="24" y="232"> <set attributeName="opacity" to="1" begin="0.64s" fill="freeze"/></text>
+  <text class="line" x="24" y="252"><tspan class="key">Languages</tspan><tspan class="dots"> ......... </tspan><tspan class="val">Python, TypeScript, Java, JS</tspan><set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/></text>
+  <text class="line" x="24" y="272"><tspan class="key">Speaks</tspan><tspan class="dots"> ............ </tspan><tspan class="val">English, Yoruba, Pidgin</tspan><set attributeName="opacity" to="1" begin="0.8s" fill="freeze"/></text>
+  <text class="line" x="24" y="292"> <set attributeName="opacity" to="1" begin="0.88s" fill="freeze"/></text>
+  <text class="line" x="24" y="312"><tspan class="key">AI</tspan><tspan class="dots"> ................ </tspan><tspan class="val">Claude API, smolagents, n8n</tspan><set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/></text>
+  <text class="line" x="24" y="332"><tspan class="key">Infra</tspan><tspan class="dots"> ............. </tspan><tspan class="val">PostgreSQL, Docker, AWS</tspan><set attributeName="opacity" to="1" begin="1.04s" fill="freeze"/></text>
+  <text class="line" x="24" y="352"><tspan class="key">Web</tspan><tspan class="dots"> ............... </tspan><tspan class="val">Node.js, Spring Boot</tspan><set attributeName="opacity" to="1" begin="1.12s" fill="freeze"/></text>
+  <text class="line" x="24" y="372"> <set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/></text>
+  <text class="line" x="24" y="392"><tspan class="section">Contact</tspan><set attributeName="opacity" to="1" begin="1.28s" fill="freeze"/></text>
+  <text class="line" x="24" y="412"><tspan class="key">Email</tspan><tspan class="dots"> ............. </tspan><tspan class="link">olamibusari607@gmail.com</tspan><set attributeName="opacity" to="1" begin="1.36s" fill="freeze"/></text>
+  <text class="line" x="24" y="432"><tspan class="key">Website</tspan><tspan class="dots"> ........... </tspan><tspan class="link">hexaaiagency.com</tspan><set attributeName="opacity" to="1" begin="1.44s" fill="freeze"/></text>
+  <text class="line" x="24" y="452"><tspan class="key">npm</tspan><tspan class="dots"> ............... </tspan><tspan class="val">quorum-api</tspan><set attributeName="opacity" to="1" begin="1.52s" fill="freeze"/></text>
+  <text class="line" x="24" y="472"> <set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/></text>
+  <text class="line" x="24" y="492"><tspan class="section">GitHub</tspan><set attributeName="opacity" to="1" begin="1.68s" fill="freeze"/></text>
+  <text class="line" x="24" y="512"><tspan class="key">Repos</tspan><tspan class="dots"> ............. </tspan><tspan class="val">20 (12 public)</tspan><set attributeName="opacity" to="1" begin="1.76s" fill="freeze"/></text>
+  <text class="line" x="24" y="532"><tspan class="key">Commits</tspan><tspan class="dots"> ........... </tspan><tspan class="val">467+</tspan><set attributeName="opacity" to="1" begin="1.84s" fill="freeze"/></text>
+  <text class="line" x="24" y="552"><tspan class="key">Client Ships</tspan><tspan class="dots"> ...... </tspan><tspan class="val">9 end-to-end</tspan><set attributeName="opacity" to="1" begin="1.92s" fill="freeze"/></text>
+  <text class="line" x="24" y="572"><tspan class="key">Best Score</tspan><tspan class="dots"> ........ </tspan><tspan class="val">GAIA benchmark 20/20</tspan><set attributeName="opacity" to="1" begin="2.0s" fill="freeze"/></text>
+  <text class="line" x="24" y="592"> <set attributeName="opacity" to="1" begin="2.08s" fill="freeze"/></text>
+  <rect x="24" y="599" width="18" height="18" rx="3" fill="#0d1117" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="46" y="599" width="18" height="18" rx="3" fill="#f85149" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="68" y="599" width="18" height="18" rx="3" fill="#3fb950" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="90" y="599" width="18" height="18" rx="3" fill="#d29922" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="112" y="599" width="18" height="18" rx="3" fill="#58a6ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="134" y="599" width="18" height="18" rx="3" fill="#bc8cff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="156" y="599" width="18" height="18" rx="3" fill="#39d353" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="178" y="599" width="18" height="18" rx="3" fill="#c9d1d9" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="24" y="617" width="18" height="18" rx="3" fill="#484f58" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="46" y="617" width="18" height="18" rx="3" fill="#ff7b72" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="68" y="617" width="18" height="18" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="90" y="617" width="18" height="18" rx="3" fill="#e3b341" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="112" y="617" width="18" height="18" rx="3" fill="#79c0ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="134" y="617" width="18" height="18" rx="3" fill="#d2a8ff" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="156" y="617" width="18" height="18" rx="3" fill="#56d364" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
+  <rect x="178" y="617" width="18" height="18" rx="3" fill="#f0f6fc" stroke="#30363d" stroke-width="0.5" opacity="0"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></rect>
 </svg>
