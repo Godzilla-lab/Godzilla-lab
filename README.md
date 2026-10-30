@@ -1,30 +1,6 @@
-```
-            ..*#+*+                 olamilekan@github
-          .*@@@@@@@*+.              ────────────────────────────────────────
-         .*@@@@@@@@##*              Role .............. AI Automation Engineer
-         .*@@@@@@#@@@+              Location .......... Nigeria
-           *#**+  .+.               Uptime ............ 1yr 10mo on GitHub
-             +*+.+.                 IDE ............... VS Code, Claude Code
-             .**+..
-           ++***+..                 Languages.Code .... Python, TS, Java, JS
-       ...+++**+.        .          Languages.Human ... English, Yoruba, Pidgin
-     .**++++++++. ..   ...
-    .**#*++++.+++.... +++.          Stack.AI .......... Claude API, smolagents, n8n
-    **+##++*++.++++++.++. .         Stack.Infra ....... PostgreSQL, Docker, AWS
-    .+**#***##*.++.*++..+..         Stack.Web ......... Node.js, Spring Boot
-     .##**++******+++..#*.
-                                    Contact
-                                    Email ............. olamibusari607@gmail.com
-                                    Website ........... hexaaiagency.com
-                                    npm ............... quorum-api
-
-                                    GitHub Stats
-                                    Repos ............. 20 (12 public)
-                                    Commits ........... 467+
-                                    Client Ships ...... 9 end-to-end
-                                    Prod Rate ......... 5,100+ exec/mo @ 1.6%
-                                    Best Score ........ GAIA 20/20 (100%)
-```
+<div align="center">
+  <img src="neofetch.svg" alt="neofetch" width="100%"/>
+</div>
 
 ---
 

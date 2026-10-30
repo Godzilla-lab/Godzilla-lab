@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 695 512" width="695" height="512">
+  <style>
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1 }
+      50% { opacity: 0 }
+    }
+    .line {
+      font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono", "Consolas", monospace;
+      font-size: 13px;
+      fill: #f8f8f2;
+      opacity: 0;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="695" height="512" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="695" height="28" rx="8" fill="#161b22"/>
+  <rect x="0" y="20" width="695" height="8" fill="#161b22"/>
+  <circle cx="18" cy="14" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="14" r="5" fill="#ffbd2e"/>
+  <circle cx="54" cy="14" r="5" fill="#27c93f"/>
+  <text x="347" y="17" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8b949e">olamilekan@github ~ neofetch</text>
+
+  <!-- Cursor -->
+  <rect x="16" y="48" width="8" height="13" fill="#50fa7b">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="48;66;84;102;120;138;156;174;192;210;228;246;264;282;300;318;336;354;372;390;408;426;444;462;480;498" dur="3.75s" fill="freeze"/>
+    <animate attributeName="x" values="445.0;640.0;640.0;523.0;608.8;624.4;281.2;624.4;647.8;281.2;679.0;647.8;624.4;281.2;367.0;655.6;593.1999999999999;546.4;16.0;406.0;577.6;499.59999999999997;562.0;632.1999999999999;601.0;16" dur="3.75s" fill="freeze"/>
+  </rect>
+
+  <text class="line" x="16" y="62">@:....-+++***+=++++++-.  .......#@    <tspan fill="#70A5FD" font-weight="bold">olamilekan</tspan><tspan fill="#f8f8f2">@</tspan><tspan fill="#70A5FD" font-weight="bold">github</tspan><set attributeName="opacity" to="1" begin="0.0s" fill="freeze"/></text>
+  <text class="line" x="16" y="80" fill="#8b949e">@--::=**+***+=++++=-=++-....... #@    ──────────────────────────────────────────<set attributeName="opacity" to="1" begin="0.12s" fill="freeze"/></text>
+  <text class="line" x="16" y="98">@-:::+***####%%%%%##***+-.......#@    Role .............. AI Automation Engineer<set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/></text>
+  <text class="line" x="16" y="116">@-::-+*####*************+:......#@    Location .......... Nigeria<set attributeName="opacity" to="1" begin="0.36s" fill="freeze"/></text>
+  <text class="line" x="16" y="134">@-:.-*+*********##**++=+#:....:.#@    Uptime ............ 1yr 10mo on GitHub<set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/></text>
+  <text class="line" x="16" y="152">@::.++=****+++++*##**+==#-....:.#@    IDE ............... VS Code, Claude Code<set attributeName="opacity" to="1" begin="0.6s" fill="freeze"/></text>
+  <text class="line" x="16" y="170">@::.#=+##%%*+=++#%##*==+*:....:.#@<set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/></text>
+  <text class="line" x="16" y="188">@::.+=+*#%%@#**%@##%+=-+=:....:.#@    Languages.Code .... Python, TS, Java, JS<set attributeName="opacity" to="1" begin="0.84s" fill="freeze"/></text>
+  <text class="line" x="16" y="206">@:.:==****##***#%###**+=*-....:.#@    Languages.Human ... English, Yoruba, Pidgin<set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/></text>
+  <text class="line" x="16" y="224">@=..--*++++++++++****+==+:......#@<set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/></text>
+  <text class="line" x="16" y="242">@@*..-++++*##*##**+*=--=:.......#@    Stack.AI .......... Claude API, smolagents, n8n<set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/></text>
+  <text class="line" x="16" y="260">@%#..:=++***####***+===:........#@    Stack.Infra ....... PostgreSQL, Docker, AWS<set attributeName="opacity" to="1" begin="1.3199999999999998s" fill="freeze"/></text>
+  <text class="line" x="16" y="278">@%-:::-=+*****#####***=.........#@    Stack.Web ......... Node.js, Spring Boot<set attributeName="opacity" to="1" begin="1.44s" fill="freeze"/></text>
+  <text class="line" x="16" y="296">@%=::--=+=+**#####%%%#-.........#@<set attributeName="opacity" to="1" begin="1.56s" fill="freeze"/></text>
+  <text class="line" x="16" y="314">@@@@#+=-+#*###%%@@@@@%#+=::.... #@    Contact<set attributeName="opacity" to="1" begin="1.68s" fill="freeze"/></text>
+  <text class="line" x="16" y="332">@%@@@%**##%@@@@@@@@@@####***+=-.#@    <tspan fill="#70A5FD">Email </tspan><tspan fill="#8b949e">.............</tspan><tspan fill="#f8f8f2"> olamibusari607@gmail.com</tspan><set attributeName="opacity" to="1" begin="1.7999999999999998s" fill="freeze"/></text>
+  <text class="line" x="16" y="350">@@@@%*#*%#%%#@@@@@%%#######%@@%*%@    <tspan fill="#70A5FD">Website </tspan><tspan fill="#8b949e">...........</tspan><tspan fill="#f8f8f2"> hexaaiagency.com</tspan><set attributeName="opacity" to="1" begin="1.92s" fill="freeze"/></text>
+  <text class="line" x="16" y="368">                                      npm ............... quorum-api<set attributeName="opacity" to="1" begin="2.04s" fill="freeze"/></text>
+  <text class="line" x="16" y="386"><set attributeName="opacity" to="1" begin="2.16s" fill="freeze"/></text>
+  <text class="line" x="16" y="404">                                      GitHub Stats<set attributeName="opacity" to="1" begin="2.28s" fill="freeze"/></text>
+  <text class="line" x="16" y="422">                                      Repos ............. 20 (12 public)<set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/></text>
+  <text class="line" x="16" y="440">                                      Commits ........... 467+<set attributeName="opacity" to="1" begin="2.52s" fill="freeze"/></text>
+  <text class="line" x="16" y="458">                                      Client Ships ...... 9 end-to-end<set attributeName="opacity" to="1" begin="2.6399999999999997s" fill="freeze"/></text>
+  <text class="line" x="16" y="476">                                      Prod Rate ......... 5,100+ exec/mo @ 1.6%<set attributeName="opacity" to="1" begin="2.76s" fill="freeze"/></text>
+  <text class="line" x="16" y="494">                                      Best Score ........ GAIA 20/20 (100%)<set attributeName="opacity" to="1" begin="2.88s" fill="freeze"/></text>
+</svg>
