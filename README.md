@@ -15,7 +15,8 @@ Currently building [Quorum](https://github.com/Godzilla-lab/Quorum-API), a verif
 | | Project | What it does | Stack |
 |:---:|---------|-------------|-------|
 | **100%** | [**GAIA Agent**](https://github.com/Godzilla-lab/hf-agents-course) | 20/20 on HuggingFace GAIA benchmark. The LLM judges; everything computable is computed. | `Python` `smolagents` `LiteLLM` |
-| **1,233 tests** | [**Quorum API**](https://github.com/Godzilla-lab/Quorum-API) | Market evidence API with verifiable receipts. npm, OpenAPI 3.1, MCP server. | `TypeScript` `PostgreSQL` `Node 22` |
+| **1,330 tests** | [**Quorum API**](https://github.com/Godzilla-lab/Quorum-API) | Market evidence API with verifiable receipts. npm, OpenAPI 3.1, MCP server. | `TypeScript` `PostgreSQL` `Node 22` |
+| **public benchmark** | [**Buyscape**](https://github.com/Godzilla-lab/Buyscape) | Prices second-hand goods from photos. Prices come from real adverts, never generated; a fine-tuned 2B model loses about half what Claude Sonnet 5 does. | `Python` `Qwen3-VL` `fine-tuning` |
 | **42K lines** | [**madebyhexa**](https://github.com/Godzilla-lab/madebyhexa) | AI ad studio. Research picks the angle before anything is generated. | `JavaScript` `Supabase` `ffmpeg` |
 | **open data** | [**naija-grid**](https://github.com/Godzilla-lab/naija-grid) | Nigeria's electricity grid: NERC caps and service bands for every feeder, all 11 DisCos. | `Python` `CC BY 4.0` |
 | **18 envs** | [**Multi-Creator Chatbot**](https://github.com/Godzilla-lab/multi-creator-chatbot) | Multi-tenant chatbot fleet from one Docker image. Per-tenant creds, persona, analytics. | `Java 17` `Spring Boot` `Docker` |
